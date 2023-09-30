@@ -1,1 +1,1 @@
-# CodeWars
+# These are the challenges that I have completed for Codewars
