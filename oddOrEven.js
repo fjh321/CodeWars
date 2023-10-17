@@ -1,8 +1,8 @@
 function oddOrEven(array) {
     let sum = 0
-    array.forEach(num => {
-        sum = sum + num
-    })
+    for (let i = 0; i < array.length; i++) {
+        sum += array[i]
+    }
     if (sum % 2 === 0) {
         console.log('even')
         return 'even'
